@@ -1,0 +1,224 @@
+         
+         
+         
+         <div className="grid grid-cols-1 md:grid-cols-3  gap-6">
+            {/* Card 1 */}
+            <div className="flex flex-row mt-10">
+              <div className="h-16 absolute  ">
+                <img
+                  className="object-cover w-[120px] h-[250px] m-5 md:w-[200px] md:h-[300px] rounded-3xl shadow-2xl drop-shadow-2xl  shadow-black transition hover:scale-110 "
+                  src="https://images.pexels.com/photos/240526/pexels-photo-240526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="A beautiful tourist destination"
+                />
+              </div>
+              <div className="bg-blue-600 ml-[50px] md:ml-[100px] shadow-2xl  mt-10 h-[300px] md:w-[450px] w-[250px] rounded-3xl">
+                <div className=" ml-[100px] md:ml-[140px] mt-3">
+                  <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white">
+                    Beautiful Beach
+                  </h2>
+                  <p className="text-white text-base md:text-lg lg:text-xl mb-3 md:mb-8">
+                    Maldives
+                  </p>
+
+                  <div className="flex items-center md:mb-8  mb-3 ">
+                    <span className="text-yellow-500  rounded-2xl">
+                      &#11088;
+                    </span>
+                    <span className="text-yellow-500 ">&#11088;</span>
+                    <span className="text-yellow-500 ">&#11088;</span>
+                    <span className="text-yellow-500  ">&#11088;</span>
+
+                    <span className="text-white mr-1 text-xl ">&#9733;</span>
+                    <span className="text-white text-sm"> 4.0 (6)</span>
+                  </div>
+
+                  <div className="flex flex-row md:justify-between w-full md:w-[150px]  mb-3">
+                    <div className="mb-1 md:mb-0">
+                      <p className="text-white text-base md:text-lg">
+                        Duration
+                      </p>
+                      <p className="text-white text-sm md:text-base">7 days</p>
+                    </div>
+
+                    <div className="border-l-2 mx-2 md:pl-4 md:ml-10">
+                      <p className="ml-2 text-white text-base md:text-lg">
+                        Price
+                      </p>
+                      <p className="ml-2 text-white text-sm md:text-base">
+                        $1500
+                      </p>
+                    </div>
+                  </div>
+                  <button className="bg-gray-100 mt-4 text-base hover:bg-red-500 hover:text-white rounded-lg px-4 py-1">
+                    {" "}
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Card 2 */}
+            <div className="flex flex-row mt-10">
+              <div className="h-16 absolute  ">
+                <img
+                  className="object-cover w-[120px] h-[250px] m-5 md:w-[200px] md:h-[300px] rounded-3xl shadow-2xl drop-shadow-2xl  shadow-black transition hover:scale-110 "
+                  src="https://images.pexels.com/photos/699466/pexels-photo-699466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="A beautiful tourist destination"
+                />
+              </div>
+              <div className="bg-red-500 ml-[50px] md:ml-[100px] shadow-2xl  mt-10 h-[300px] md:w-[450px] w-[250px] rounded-3xl">
+                <div className=" ml-[100px] md:ml-[140px] mt-3">
+                  <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white">
+                    Eiffel Tower{" "}
+                  </h2>
+                  <p className="text-white text-base md:text-lg lg:text-xl mb-3 md:mb-8">
+                    France{" "}
+                  </p>
+
+                  <div className="flex items-center md:mb-8  mb-3 ">
+                    <span className="text-yellow-500  rounded-2xl">
+                      &#11088;
+                    </span>
+                    <span className="text-yellow-500 ">&#11088;</span>
+                    <span className="text-yellow-500 ">&#11088;</span>
+                    <span className="text-yellow-500  ">&#11088;</span>
+
+                    <span className="text-white mr-1 text-xl ">&#9733;</span>
+                    <span className="text-white text-sm"> 4.0 (6)</span>
+                  </div>
+
+                  <div className="flex flex-row md:justify-between w-full md:w-[150px]  mb-3">
+                    <div className="mb-1 md:mb-0">
+                      <p className="text-white text-base md:text-lg">
+                        Duration
+                      </p>
+                      <p className="text-white text-sm md:text-base">7 days</p>
+                    </div>
+
+                    <div className="border-l-2 mx-2 md:pl-4 md:ml-10">
+                      <p className="ml-2 text-white text-base md:text-lg">
+                        Price
+                      </p>
+                      <p className="ml-2 text-white text-sm md:text-base">
+                        $1500
+                      </p>
+                    </div>
+                  </div>
+                  <button className="bg-gray-100 mt-4 text-base hover:bg-red-500 hover:text-white rounded-lg px-4 py-1">
+                    {" "}
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Card 3 */}
+            <div className="flex flex-row mt-10">
+              <div className="h-16 absolute  ">
+                <img
+                  className="object-cover w-[120px] h-[250px] m-5 md:w-[200px] md:h-[300px] rounded-3xl shadow-2xl drop-shadow-2xl  shadow-black transition hover:scale-110 "
+                  src="https://images.pexels.com/photos/2193268/pexels-photo-2193268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="A beautiful tourist destination"
+                />
+              </div>
+              <div className="bg-emerald-500 ml-[50px] md:ml-[100px] shadow-2xl  mt-10 h-[300px] md:w-[450px] w-[250px] rounded-3xl">
+                <div className=" ml-[100px] md:ml-[140px] mt-3">
+                  <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white">
+                 Opera House{" "}
+                  </h2>
+                  <p className="text-white text-base md:text-lg lg:text-xl mb-3 md:mb-8">
+                  Australia
+                  </p>
+
+                  <div className="flex items-center md:mb-8  mb-3 ">
+                    <span className="text-yellow-500  rounded-2xl">
+                      &#11088;
+                    </span>
+                    <span className="text-yellow-500 ">&#11088;</span>
+                    <span className="text-yellow-500 ">&#11088;</span>
+                    <span className="text-yellow-500  ">&#11088;</span>
+
+                    <span className="text-white mr-1 text-xl ">&#9733;</span>
+                    <span className="text-white text-sm"> 4.0 (6)</span>
+                  </div>
+
+                  <div className="flex flex-row md:justify-between w-full md:w-[150px]  mb-3">
+                    <div className="mb-1 md:mb-0">
+                      <p className="text-white text-base md:text-lg">
+                        Duration
+                      </p>
+                      <p className="text-white text-sm md:text-base">7 days</p>
+                    </div>
+
+                    <div className="border-l-2 mx-2 md:pl-4 md:ml-10">
+                      <p className="ml-2 text-white text-base md:text-lg">
+                        Price
+                      </p>
+                      <p className="ml-2 text-white text-sm md:text-base">
+                        $1500
+                      </p>
+                    </div>
+                  </div>
+                  <button className="bg-gray-100 mt-4 text-base hover:bg-red-500 hover:text-white rounded-lg px-4 py-1">
+                    {" "}
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Card 4 */}
+            <div className="flex flex-row mt-10">
+              <div className="h-16 absolute  ">
+                <img
+                  className="object-cover w-[120px] h-[250px] m-5 md:w-[200px] md:h-[300px] rounded-3xl shadow-2xl drop-shadow-2xl  shadow-black transition hover:scale-110 "
+                  src="https://images.pexels.com/photos/19149640/pexels-photo-19149640/free-photo-of-pond-and-taj-mahal-behind.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="A beautiful tourist destination"
+                />
+              </div>
+              <div className="  bg-lime-600 ml-[50px] md:ml-[100px] shadow-2xl  mt-10 h-[300px] md:w-[450px] w-[250px] rounded-3xl">
+                <div className=" ml-[100px] md:ml-[140px] mt-3">
+                  <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white">
+                    Taj Mahal{" "}
+                  </h2>
+                  <p className="text-white text-base md:text-lg lg:text-xl mb-3 md:mb-8">
+                    India
+                  </p>
+
+                  <div className="flex items-center md:mb-8  mb-3 ">
+                    <span className="text-yellow-500  rounded-2xl">
+                      &#11088;
+                    </span>
+                    <span className="text-yellow-500 ">&#11088;</span>
+                    <span className="text-yellow-500 ">&#11088;</span>
+                    <span className="text-yellow-500  ">&#11088;</span>
+
+                    <span className="text-white mr-1 text-xl ">&#9733;</span>
+                    <span className="text-white text-sm"> 4.0 (6)</span>
+                  </div>
+
+                  <div className="flex flex-row md:justify-between w-full md:w-[150px]  mb-3">
+                    <div className="mb-1 md:mb-0">
+                      <p className="text-white text-base md:text-lg">
+                        Duration
+                      </p>
+                      <p className="text-white text-sm md:text-base">7 days</p>
+                    </div>
+
+                    <div className="border-l-2 mx-2 md:pl-4 md:ml-10">
+                      <p className="ml-2 text-white text-base md:text-lg">
+                        Price
+                      </p>
+                      <p className="ml-2 text-white text-sm md:text-base">
+                        $1500
+                      </p>
+                    </div>
+                  </div>
+                  <button className="bg-gray-100 mt-4 text-base hover:bg-red-500 hover:text-white rounded-lg px-4 py-1">
+                    {" "}
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>

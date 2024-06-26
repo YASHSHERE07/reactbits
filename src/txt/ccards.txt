@@ -1,0 +1,138 @@
+    
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+  {/* Card 1 */}
+            <div className="max-w-sm rounded-lg overflow-hidden shadow-lg border border-gray-200 relative group">
+              <img
+                className="w-full h-48 object-cover"
+                src="https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="A pair of stylish shoes"
+              />
+              <div className="p-4">
+                <h2 className="font-bold text-xl mb-2">Stylish Shoes</h2>
+                <p className="text-gray-700 text-base mb-2">$79.99</p>
+              </div>
+              <div className="absolute inset-0 bg-black bg-opacity-75 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 translate-y-full transition-all duration-300 flex flex-col justify-center items-center text-white p-4">
+                <h2 className="font-bold text-2xl mb-2">Stylish Shoes</h2>
+                <p className="text-base mb-4">
+                  Step out in style with these fashionable shoes. Perfect for
+                  any occasion, offering both comfort and elegance.
+                </p>
+                <div className="flex flex-wrap -m-1">
+                  <span className="m-1 bg-green-500 rounded-full px-3 py-1 text-sm font-semibold">
+                    #fashion
+                  </span>
+                  <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                    #style
+                  </span>
+                  <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                    #comfort
+                  </span>
+                </div>
+                <button className="bg-blue-500 text-white px-4 py-2 rounded-lg mt-4">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+
+            {/* Card 2 */}
+            <div className="max-w-sm rounded-lg overflow-hidden shadow-lg border border-gray-200 relative group">
+              <img
+                className="w-full h-48 object-cover"
+                src="https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="A pair of stylish shoes"
+              />
+              <div className="p-4">
+                <h2 className="font-bold text-xl mb-2">Stylish Shoes</h2>
+                <p className="text-gray-700 text-base mb-2">$79.99</p>
+              </div>
+              <div className="absolute inset-0 bg-black bg-opacity-75 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 translate-y-full transition-all duration-300 flex flex-col justify-center items-center text-white p-4">
+                <h2 className="font-bold text-2xl mb-2">Stylish Shoes</h2>
+                <p className="text-base mb-4">
+                  Step out in style with these fashionable shoes. Perfect for
+                  any occasion, offering both comfort and elegance.
+                </p>
+                <div className="flex flex-wrap -m-1">
+                  <span className="m-1 bg-green-500 rounded-full px-3 py-1 text-sm font-semibold">
+                    #fashion
+                  </span>
+                  <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                    #style
+                  </span>
+                  <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                    #comfort
+                  </span>
+                </div>
+                <button className="bg-blue-500 text-white px-4 py-2 rounded-lg mt-4">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+
+            {/* Card 3 */}
+            <div className="max-w-sm rounded-lg overflow-hidden shadow-lg border border-gray-200 relative group">
+              <img
+                className="w-full h-48 object-cover"
+                src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="A pair of stylish shoes"
+              />
+              <div className="p-4">
+                <h2 className="font-bold text-xl mb-2">Stylish Shoes</h2>
+                <p className="text-gray-700 text-base mb-2">$79.99</p>
+              </div>
+              <div className="absolute inset-0 bg-black bg-opacity-75 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 translate-y-full transition-all duration-300 flex flex-col justify-center items-center text-white p-4">
+                <h2 className="font-bold text-2xl mb-2">Stylish Shoes</h2>
+                <p className="text-base mb-4">
+                  Step out in style with these fashionable shoes. Perfect for
+                  any occasion, offering both comfort and elegance.
+                </p>
+                <div className="flex flex-wrap -m-1">
+                  <span className="m-1 bg-green-500 rounded-full px-3 py-1 text-sm font-semibold">
+                    #fashion
+                  </span>
+                  <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                    #style
+                  </span>
+                  <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                    #comfort
+                  </span>
+                </div>
+                <button className="bg-blue-500 text-white px-4 py-2 rounded-lg mt-4">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+
+            {/* Card 4 */}
+            <div className="max-w-sm rounded-lg overflow-hidden shadow-lg border border-gray-200 relative group">
+              <img
+                className="w-full h-48 object-cover"
+                src="https://images.pexels.com/photos/1598508/pexels-photo-1598508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="A pair of stylish shoes"
+              />
+              <div className="p-4">
+                <h2 className="font-bold text-xl mb-2">Stylish Shoes</h2>
+                <p className="text-gray-700 text-base mb-2">$79.99</p>
+              </div>
+              <div className="absolute inset-0 bg-black bg-opacity-75 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 translate-y-full transition-all duration-300 flex flex-col justify-center items-center text-white p-4">
+                <h2 className="font-bold text-2xl mb-2">Stylish Shoes</h2>
+                <p className="text-base mb-4">
+                  Step out in style with these fashionable shoes. Perfect for
+                  any occasion, offering both comfort and elegance.
+                </p>
+                <div className="flex flex-wrap -m-1">
+                  <span className="m-1 bg-green-500 rounded-full px-3 py-1 text-sm font-semibold">
+                    #fashion
+                  </span>
+                  <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                    #style
+                  </span>
+                  <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                    #comfort
+                  </span>
+                </div>
+                <button className="bg-blue-500 text-white px-4 py-2 rounded-lg mt-4">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+    </div>

@@ -1,0 +1,54 @@
+   
+   
+   <div>
+         <div className="flex -space-x-5 justify-center max-w-6xl  border-black">
+            <div className=" h-24 w-24  rounded-full overflow-hidden  ring ring-gray-200  shadow-2xl shadow-red-800 transitiontransition hover:-translate-y-4">
+              <img
+                className="h-full w-full rounded-full object-cover transition  "
+                src="https://images.pexels.com/photos/21327869/pexels-photo-21327869/free-photo-of-a-woman-in-a-skirt-and-blazer-posing-for-a-photo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="A woman with curly hair posing for a photo"
+              />
+            </div>
+            <div className=" h-24 w-24  rounded-full overflow-hidden  ring ring-gray-200 shadow-2xl shadow-red-800 transition hover:-translate-y-4">
+              <img
+                className="h-full w-full rounded-full object-cover "
+                src="https://images.pexels.com/photos/1009904/pexels-photo-1009904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="A woman with curly hair posing for a photo"
+              />
+            </div>
+            <div className=" h-24 w-24  rounded-full overflow-hidden  ring ring-gray-200 shadow-2xl shadow-red-800 transition hover:-translate-y-4">
+              <img
+                className="h-full w-full rounded-full object-cover "
+                src="https://images.pexels.com/photos/3633758/pexels-photo-3633758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="A woman with curly hair posing for a photo"
+              />
+            </div>
+            <div className=" h-24 w-24  rounded-full overflow-hidden  ring ring-gray-200 shadow-2xl shadow-red-800 transition hover:-translate-y-4">
+              <img
+                className="h-full w-full rounded-full object-cover "
+                src="https://images.pexels.com/photos/2294492/pexels-photo-2294492.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="A woman with curly hair posing for a photo"
+              />
+            </div>
+            <div className=" h-24 w-24 rounded-full overflow-hidden  ring ring-gray-200 shadow-2xl shadow-red-800 transition hover:-translate-y-4 bg-slate-300 flex justify-center items-center ">
+              <h1 className=" font-oswald text-5xl text-blue-600">+05</h1>
+            </div>
+         </div>
+          <div className="flex justify-center mt-16 space-x-10">
+            {" "}
+            <div className=" h-24 w-24  rounded-full overflow-hidden  ring ring-gray-200 shadow-2xl shadow-red-800 transition  hover:scale-110 hover:ring-green-500">
+              <img
+                className="h-full w-full rounded-full object-cover "
+                src="https://images.pexels.com/photos/21327869/pexels-photo-21327869/free-photo-of-a-woman-in-a-skirt-and-blazer-posing-for-a-photo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="A woman with curly hair posing for a photo"
+              />
+            </div>
+            <div className=" h-24 w-24  rounded-full overflow-hidden  ring ring-gray-200 shadow-2xl shadow-red-800 transition  hover:scale-110 hover:ring-red-500">
+              <img
+                className="h-full w-full rounded-full object-cover "
+                src="https://images.pexels.com/photos/1009904/pexels-photo-1009904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="A woman with curly hair posing for a photo"
+              />
+            </div>
+          </div>
+   </div>

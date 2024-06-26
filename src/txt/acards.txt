@@ -1,0 +1,122 @@
+    
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      {/* Card 1 */}
+      <div className="max-w-sm rounded-lg overflow-hidden shadow-lg border border-gray-200">
+        <img
+          className="w-full h-48 object-cover"
+          src="https://images.pexels.com/photos/23909854/pexels-photo-23909854/free-photo-of-a-woman-with-curly-hair-posing-for-a-photo.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="A woman with curly hair posing for a photo"
+        />
+        <div className="p-6">
+          <div className="bg-green-500 text-white text-xs font-semibold uppercase px-2 py-1 rounded inline-block mb-4">
+            Featured
+          </div>
+          <div className="font-bold text-xl mb-2">Amazing Destination</div>
+          <p className="text-gray-700 text-base mb-4">
+            Discover the beauty of this amazing destination with stunning views
+            and unforgettable experiences.
+          </p>
+          <div className="flex flex-wrap -m-1">
+            <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+              #adventure
+            </span>
+            <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+              #explore
+            </span>
+            <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+              #travel
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Card 2 */}
+      <div className="max-w-sm rounded-lg overflow-hidden shadow-lg border border-gray-200">
+        <img
+          className="w-full h-48 object-cover"
+          src="https://images.pexels.com/photos/4588037/pexels-photo-4588037.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="A scenic mountain view"
+        />
+        <div className="p-6">
+          <div className="bg-blue-500 text-white text-xs font-semibold uppercase px-2 py-1 rounded inline-block mb-4">
+            Popular
+          </div>
+          <div className="font-bold text-xl mb-2">Mountain Adventure</div>
+          <p className="text-gray-700 text-base mb-4">
+            Experience the thrill of mountain adventure with breathtaking views
+            and exhilarating hikes.
+          </p>
+          <div className="flex flex-wrap -m-1">
+            <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+              #mountains
+            </span>
+            <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+              #hiking
+            </span>
+            <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+              #nature
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Card 3 */}
+      <div className="max-w-sm rounded-lg overflow-hidden shadow-lg border border-gray-200">
+        <img
+          className="w-full h-48 object-cover"
+          src="https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="A beautiful sunset at the beach"
+        />
+        <div className="p-6">
+          <div className="bg-red-500 text-white text-xs font-semibold uppercase px-2 py-1 rounded inline-block mb-4">
+            Trending
+          </div>
+          <div className="font-bold text-xl mb-2">Beach Sunset</div>
+          <p className="text-gray-700 text-base mb-4">
+            Relax and enjoy the mesmerizing sunset views at the beautiful beach.
+            Perfect for a serene evening.
+          </p>
+          <div className="flex flex-wrap -m-1">
+            <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+              #sunset
+            </span>
+            <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+              #beach
+            </span>
+            <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+              #relax
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Card 4 */}
+      <div className="max-w-sm rounded-lg overflow-hidden shadow-lg border border-gray-200">
+        <img
+          className="w-full h-48 object-cover"
+          src="https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="A cityscape view at night"
+        />
+        <div className="p-6">
+          <div className="bg-purple-500 text-white text-xs font-semibold uppercase px-2 py-1 rounded inline-block mb-4">
+            New
+          </div>
+          <div className="font-bold text-xl mb-2">City Lights</div>
+          <p className="text-gray-700 text-base mb-4">
+            Enjoy the vibrant city life with dazzling lights and stunning
+            nightscapes. Perfect for a night out in the town.
+          </p>
+          <div className="flex flex-wrap -m-1">
+            <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+              #city
+            </span>
+            <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+              #nightlife
+            </span>
+            <span className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+              #urban
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>

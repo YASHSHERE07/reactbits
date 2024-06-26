@@ -1,0 +1,38 @@
+      
+      
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:max-w-5xl md:max-w-3xl  h-auto bg-white shadow-lg rounded-lg overflow-hidden">
+        <div>
+          <img
+            className="w-full h-auto object-contain"
+            src="https://images.pexels.com/photos/2265876/pexels-photo-2265876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="A woman with curly hair posing for a photo"
+          />
+        </div>
+        <div className="col-span-2  p-6 flex flex-col justify-between shadow-2xl shadow-blue-400 rounded-r-lg ">
+          <div>
+            <h2 className="font-bold text-2xl mb-2">Amazing Destination</h2>
+            <p className="text-sm text-gray-600 mb-4">April 20, 2024</p>
+            <p className="text-gray-700 text-base mb-4">
+              Discover the beauty of this amazing destination with stunning
+              views and unforgettable experiences.
+            </p>
+          </div>
+          <div>
+            <div className="flex flex-wrap mb-4">
+              <span className="bg-green-500 text-white text-xs font-semibold uppercase px-2 py-1 rounded mr-2 mb-2">
+                Featured
+              </span>
+              <span className="bg-gray-200 text-sm font-semibold rounded-full px-3 py-1 text-gray-700 mr-2 mb-2">
+                #adventure
+              </span>
+              <span className="bg-gray-200 text-sm font-semibold rounded-full px-3 py-1 text-gray-700 mr-2 mb-2">
+                #explore
+              </span>
+              <span className="bg-gray-200 text-sm font-semibold rounded-full px-3 py-1 text-gray-700 mr-2 mb-2">
+                #travel
+              </span>
+            </div>
+            <p className="text-gray-600 text-sm">By Yash Shere</p>
+          </div>
+        </div>
+      </div>
